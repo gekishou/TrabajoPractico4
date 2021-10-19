@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabajo Practico 4</title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    <main>
+        <div class="columna" id ="primerColumna">
+            <!-- columna 1 -->
+            <div id="video"><iframe width="1228" height="691" src="https://www.youtube.com/embed/X2rd0xHaf84" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div id="descripcion">
+                <div class="tituloVideo">
+                    Los Simpsons Capitulos Completos - Lisa obtiene un 10</div>
+                <div class="nombreCanal">Simpsons Latino</div>
+                <div class="subscriptores">653 subscribers</div>
+                <br><br>
+                <div class="descripcionVideo">Los Simpsons Latino Temporada: 10 Capitulo: 7
+                Quieres disfrutar de los mejores capitulos de los simpsons
+                Pues aqui encontraras la mejor calidad 
+                Que esperas para suscribirte para recibir todos los dias capitulos enteros de los simpsons
+                No olvides darle LIKE
+                <br><br>
+                <button onclick="mostrar()" class="boton">Presionar para mostrar: </button>
+                <div id="practicaGrid">
+                Practica GRID
+                </div>
+
+               <script>
+                function mostrar() {
+                var boton = document.getElementById("practicaGrid");
+                if (boton.style.display === "none") {
+                    boton.style.display = "block";
+                } else {
+                    boton.style.display = "none";
+                }
+                }
+                </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="columna" id="segundaColumna">
+            <!-- columna 2 -->
+            <div class="fila">
+                <img src="images/thumbnail1.png">
+                <div class="tituloThumbnail">Los Simpsons Temporada 17 Capitulos11 : Humo sobre la... </div>
+                <div class="canalThumbnail">Simpsons Latino</div>
+            </div>
+            <div class="fila">
+                <img src="images/thumbnail2.png">
+                <div class="tituloThumbnail">Los Simpsons Temporada 19 Capitulos 6 : Milito, el ... </div>
+                <div class="canalThumbnail">Simpsons Latino</div>
+            </div>
+            <div class="fila">
+                <img src="images/thumbnail3.png">
+                <div class="tituloThumbnail">Los Simpsons Temporada 31 Capitulos 15 Completos - Cero... </div>
+                <div class="canalThumbnail">Simpsons Latino</div>
+            </div>
+            <div class="fila">
+                <img src="images/thumbnail4.png">
+                <div class="tituloThumbnail">El Cuervo Los Simpsons (Audio Latino) ... </div>
+                <div class="canalThumbnail">Simpsons Latino</div>
+            </div>
+            <div class="fila">
+                <img src="images/thumbnail5.png">
+                <div class="tituloThumbnail">Los Simpsons Temporada 25 Capitulos 1 Completos -... </div>
+                <div class="canalThumbnail">Simpsons Latino</div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
+

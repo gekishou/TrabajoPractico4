@@ -1,0 +1,86 @@
+*{
+    color: orange;
+    background-color: black;
+}
+
+main {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.columna {
+    border: 2px solid blue;
+    display:grid;
+    margin: 10px;
+}
+
+#primerColumna{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+#segundaColumna{
+    display: grid;
+    grid-template-rows: 120px 120px 120px 120px 120px;
+    grid-template-columns: 400px;
+    gap: 10px;
+}
+
+#video{
+    border: 2px solid purple;
+}
+
+#descripcion{
+    border: 2px solid yellow;
+}
+
+.fila{
+    border: 2px solid green;
+    
+    margin: 10px;
+}
+
+.tituloVideo{
+    font-size: 32px;
+    font-weight: bold;
+}
+.nombreCanal{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subscriptores{
+    font-size: 14px;
+}
+
+.descripcionVideo{
+    font-size: 20px;
+}
+
+img{
+    float: left;
+}
+
+.tituloThumbnail{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.canalThumbnail{
+    font-size: 12px;
+}
+
+#practicaGrid{
+    color: pink;
+    font-size: 32px;
+    display: none;
+}
+
+.boton{
+    float:left;
+    color:lightgreen;
+}
